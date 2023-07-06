@@ -1,0 +1,4 @@
+@mixin borde($tipo, $porcentaje){
+    border: $tipo;
+    border-radius: $porcentaje;
+};
