@@ -624,5 +624,110 @@ footer .arriba {
     width: 100%;
   }
 }
+/* Estas clases se agregaran dinamicamente mediante javascript */
+.skills .skill .EntryFragger {
+  width: 0%;
+  animation: 2s EntryFragger forwards;
+}
+
+@keyframes EntryFragger {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 89%;
+  }
+}
+.skills .skill .Iniciador {
+  width: 0%;
+  animation: 2s Iniciador forwards;
+}
+
+@keyframes Iniciador {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 89%;
+  }
+}
+.skills .skill .Smoker {
+  width: 0%;
+  animation: 2s Smoker forwards;
+}
+
+@keyframes Smoker {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+.skills .skill .Centinela {
+  width: 0%;
+  animation: 2s Centinela forwards;
+}
+
+@keyframes Centinela {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 81%;
+  }
+}
+.skills .skill .Comunicacion {
+  width: 0%;
+  animation: 2s Comunicacion forwards;
+}
+
+@keyframes Comunicacion {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+.skills .skill .TrabajoEquipo {
+  width: 0%;
+  animation: 2s TrabajoEquipo forwards;
+}
+
+@keyframes TrabajoEquipo {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+.skills .skill .Dedicacion {
+  width: 0%;
+  animation: 2s Dedicacion forwards;
+}
+
+@keyframes Dedicacion {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
+.skills .skill .Gamesense {
+  width: 0%;
+  animation: 2s Gamesense forwards;
+}
+
+@keyframes Gamesense {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 94%;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
